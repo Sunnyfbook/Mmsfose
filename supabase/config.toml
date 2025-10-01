@@ -1,0 +1,7 @@
+project_id = "lbmortayknpfqkpwuvmy"
+
+[functions.increment-impression]
+verify_jwt = false
+
+[functions.increment-click]
+verify_jwt = false
