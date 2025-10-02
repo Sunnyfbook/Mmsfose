@@ -1,0 +1,25 @@
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: *
+Allow: /
+
+# Block admin areas from crawling
+Disallow: /admin/
+Disallow: /auth/
+
+# Allow video content
+Allow: /videos/
+Allow: /streaming/
+
+# Sitemap location
+Sitemap: https://d4ac8d7f-51bc-41a5-ac4e-8032103f7d24.lovableproject.com/sitemap.xml
